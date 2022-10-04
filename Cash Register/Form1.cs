@@ -248,8 +248,6 @@ namespace Cash_Register
             Thread.Sleep(receiptSleep);
 
             receiptLabel.Text += $"\n  Change          {customerchange.ToString("C")}";
-            player.Play();
-            Refresh();
             Thread.Sleep(receiptSleep);
 
             //display a nice message at the end
