@@ -38,6 +38,9 @@ namespace Cash_Register
 
         //integer to calculate total customers
         int customer = 0;
+
+        SoundPlayer player = new SoundPlayer(Properties.Resources.receipt);
+        SoundPlayer playercut = new SoundPlayer(Properties.Resources.receiptcut);
         public Form1()
         {
             InitializeComponent();
@@ -63,10 +66,10 @@ namespace Cash_Register
                 total = subtotal + tax;
                 
                 //detects if the amount being bought is above the acceptable limit and gives an error message if true
-                if (dash > 200 || poison > 200 || golden > 200)
+                if (dash > 200 || dash < 0 || poison > 200 || poison < 0 || golden > 200 || golden < 0 || dash == 0 && poison == 0 && golden == 0)
                 {
-                    receiptLabel.Text = $"Too Many of an Item Has Been Inserted.";
-                    receiptLabel.Text += $"\n\nPlease Buy Less Product.";
+                    receiptLabel.Text = $"The Item Amount Inserted is Incompatable.";
+                    receiptLabel.Text += $"\n\nPlease Change the Amount of Product.";
                 }
                 else
                 {
@@ -113,7 +116,7 @@ namespace Cash_Register
                 stars = Convert.ToDouble(starpaymentInput.Text);
 
                 customertotal = coins + (stars * 100);
-                customerchange = customertotal - total;
+                customerchange = customertotal - Convert.ToInt16(total);
 
                 //detects if the customers total is above the acceptable limit and gives an error message if true
                 if (stars > 200 || coins > 9900)
@@ -163,8 +166,6 @@ namespace Cash_Register
         private void printButton_Click(object sender, EventArgs e)
         {
             int receiptSleep = 1000;
-            SoundPlayer player = new SoundPlayer(Properties.Resources.receipt);
-            SoundPlayer playercut = new SoundPlayer(Properties.Resources.receiptcut);
 
             //stops the reuse of the calculate, change or print recipt button
             totalButton.Enabled = false;
@@ -248,11 +249,14 @@ namespace Cash_Register
             Thread.Sleep(receiptSleep);
 
             receiptLabel.Text += $"\n  Change          {customerchange.ToString("C")}";
+            player.Play();
+            Refresh();
             Thread.Sleep(receiptSleep);
 
             //display a nice message at the end
             receiptLabel.Text += $"\n\n  Have a Great Day!";
             playercut.Play();
+            Refresh();
         }
 
         private void resetButton_Click(object sender, EventArgs e)
