@@ -1,15 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Threading;
-using System.Diagnostics;
 using System.Media;
+using System.Threading;
+using System.Windows.Forms;
 
 /*
  * Mario Cash Register Program
@@ -149,8 +141,6 @@ namespace Cash_Register
                 stars = Convert.ToDouble(starPaymentInput.Text);
 
                 customertotal = coins + (stars * 100);
-                customerstars = Convert.ToInt16(customerchange) / 100;
-                customercoins = Convert.ToInt16(customerchange) % 100;
                 customerchange = customertotal - Convert.ToInt16(total);
 
                 //detects if the customers total is above the acceptable limit and gives an error message if true
@@ -161,35 +151,38 @@ namespace Cash_Register
                 }
                 //checks to confirm that the change is above 0 so that the customer can't buy unless they input enough currency
                 else if (customerchange >= 0)
-                    {
-                        starsChangeOutput.Text = $"{customerstars}";
-                        coinsChangeOutput.Text = $"{customercoins}";
+                {
+                    customerstars = Convert.ToInt16(customerchange) / 100;
+                    customercoins = Convert.ToInt16(customerchange) % 100;
 
-                        //resets recipt text
-                        receiptLabel.Text = "";
+                    starsChangeOutput.Text = $"{customerstars}";
+                    coinsChangeOutput.Text = $"{customercoins}";
 
-                        //shows stars and coins if there is enough payment
-                        changeStarPicture.Visible = true;
-                        changeCoinPicture.Visible = true;
+                    //resets recipt text
+                    receiptLabel.Text = "";
 
-                        //print button becomes enable if critera is met
-                        printButton.Enabled = true;
-                    }
-                    else
-                    {
-                        //displays that there is not enough payment
-                        receiptLabel.Text = "Not Enough Payment Given.";
-                        receiptLabel.Text += "\n\nPlease Provide More Money!";
+                    //shows stars and coins if there is enough payment
+                    changeStarPicture.Visible = true;
+                    changeCoinPicture.Visible = true;
 
-                        //stops other buttons from working
-                        printButton.Enabled = false;
+                    //print button becomes enable if critera is met
+                    printButton.Enabled = true;
+                }
+                else
+                {
+                    //displays that there is not enough payment
+                    receiptLabel.Text = "Not Enough Payment Given.";
+                    receiptLabel.Text += "\n\nPlease Provide More Money!";
 
-                        //resets the payment
-                        changeStarPicture.Visible = false;
-                        changeCoinPicture.Visible = false;
-                        starsChangeOutput.Text = "";
-                        coinsChangeOutput.Text = "";
-                    }
+                    //stops other buttons from working
+                    printButton.Enabled = false;
+
+                    //resets the payment
+                    changeStarPicture.Visible = false;
+                    changeCoinPicture.Visible = false;
+                    starsChangeOutput.Text = "";
+                    coinsChangeOutput.Text = "";
+                }
             }
             catch
             {
