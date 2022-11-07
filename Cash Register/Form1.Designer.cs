@@ -30,74 +30,74 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dashLabel = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.goldenLabel = new System.Windows.Forms.Label();
             this.poisonLabel = new System.Windows.Forms.Label();
             this.dashInput = new System.Windows.Forms.TextBox();
             this.poisonInput = new System.Windows.Forms.TextBox();
             this.goldenInput = new System.Windows.Forms.TextBox();
-            this.dashpriceLabel = new System.Windows.Forms.Label();
-            this.poisonpriceLabel = new System.Windows.Forms.Label();
-            this.goldenLabel = new System.Windows.Forms.Label();
+            this.dashPriceLabel = new System.Windows.Forms.Label();
+            this.poisonPriceLabel = new System.Windows.Forms.Label();
+            this.goldenPriceLabel = new System.Windows.Forms.Label();
             this.totalButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.starpaymentInput = new System.Windows.Forms.TextBox();
-            this.coinpaymentInput = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.subtotalLabel = new System.Windows.Forms.Label();
+            this.taxLabel = new System.Windows.Forms.Label();
+            this.totalLabel = new System.Windows.Forms.Label();
+            this.starPaymentInput = new System.Windows.Forms.TextBox();
+            this.coinPaymentInput = new System.Windows.Forms.TextBox();
+            this.equalsLabel = new System.Windows.Forms.Label();
+            this.conversionLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.dividerLabel = new System.Windows.Forms.Label();
             this.receiptLabel = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.paymentLabel = new System.Windows.Forms.Label();
+            this.changeOwedLabel = new System.Windows.Forms.Label();
             this.changeButton = new System.Windows.Forms.Button();
             this.printButton = new System.Windows.Forms.Button();
-            this.coinstotalOutput = new System.Windows.Forms.Label();
-            this.coinstaxOutput = new System.Windows.Forms.Label();
-            this.coinssubtotalOutput = new System.Windows.Forms.Label();
-            this.starstotalOutput = new System.Windows.Forms.Label();
-            this.starstaxOutput = new System.Windows.Forms.Label();
-            this.starssubtotalOutput = new System.Windows.Forms.Label();
+            this.coinsTotalOutput = new System.Windows.Forms.Label();
+            this.coinsTaxOutput = new System.Windows.Forms.Label();
+            this.coinsSubtotalOutput = new System.Windows.Forms.Label();
+            this.starsTotalOutput = new System.Windows.Forms.Label();
+            this.starsTaxOutput = new System.Windows.Forms.Label();
+            this.starsSubtotalOutput = new System.Windows.Forms.Label();
             this.resetButton = new System.Windows.Forms.Button();
-            this.starschangeOutput = new System.Windows.Forms.Label();
-            this.coinschangeOutput = new System.Windows.Forms.Label();
-            this.changestarPicture = new System.Windows.Forms.PictureBox();
-            this.changecoinPicture = new System.Windows.Forms.PictureBox();
-            this.subtotalstarPicture = new System.Windows.Forms.PictureBox();
-            this.taxstarPicture = new System.Windows.Forms.PictureBox();
-            this.totalstarPicture = new System.Windows.Forms.PictureBox();
-            this.subtotalcoinPicture = new System.Windows.Forms.PictureBox();
-            this.taxcoinPicture = new System.Windows.Forms.PictureBox();
-            this.totalcoinPicture = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.changestarPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.changecoinPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.subtotalstarPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.taxstarPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.totalstarPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.subtotalcoinPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.taxcoinPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.totalcoinPicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.starsChangeOutput = new System.Windows.Forms.Label();
+            this.coinsChangeOutput = new System.Windows.Forms.Label();
+            this.changeStarPicture = new System.Windows.Forms.PictureBox();
+            this.changeCoinPicture = new System.Windows.Forms.PictureBox();
+            this.subtotalStarPicture = new System.Windows.Forms.PictureBox();
+            this.taxStarPicture = new System.Windows.Forms.PictureBox();
+            this.totalStarPicture = new System.Windows.Forms.PictureBox();
+            this.subtotalCoinPicture = new System.Windows.Forms.PictureBox();
+            this.taxCoinPicture = new System.Windows.Forms.PictureBox();
+            this.totalCoinPicture = new System.Windows.Forms.PictureBox();
+            this.coininputImage = new System.Windows.Forms.PictureBox();
+            this.starinputImage = new System.Windows.Forms.PictureBox();
+            this.conversionStarPicture = new System.Windows.Forms.PictureBox();
+            this.conversionCoinsPicture = new System.Windows.Forms.PictureBox();
+            this.dashCoinsImage = new System.Windows.Forms.PictureBox();
+            this.goldenCoinsImage = new System.Windows.Forms.PictureBox();
+            this.poisonCoinsImage = new System.Windows.Forms.PictureBox();
+            this.goldenImage = new System.Windows.Forms.PictureBox();
+            this.poisonImage = new System.Windows.Forms.PictureBox();
+            this.dashImage = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.changeStarPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.changeCoinPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subtotalStarPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.taxStarPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totalStarPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subtotalCoinPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.taxCoinPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totalCoinPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coininputImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.starinputImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conversionStarPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conversionCoinsPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dashCoinsImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldenCoinsImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poisonCoinsImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldenImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poisonImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dashImage)).BeginInit();
             this.SuspendLayout();
             // 
             // dashLabel
@@ -108,20 +108,20 @@
             this.dashLabel.Location = new System.Drawing.Point(100, 26);
             this.dashLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dashLabel.Name = "dashLabel";
-            this.dashLabel.Size = new System.Drawing.Size(150, 21);
+            this.dashLabel.Size = new System.Drawing.Size(183, 26);
             this.dashLabel.TabIndex = 4;
             this.dashLabel.Text = "Dash Mushroom:";
             // 
-            // label2
+            // goldenLabel
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(100, 133);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 43);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Golden Dash          Mushroom:";
+            this.goldenLabel.BackColor = System.Drawing.Color.Transparent;
+            this.goldenLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goldenLabel.Location = new System.Drawing.Point(100, 133);
+            this.goldenLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.goldenLabel.Name = "goldenLabel";
+            this.goldenLabel.Size = new System.Drawing.Size(151, 43);
+            this.goldenLabel.TabIndex = 5;
+            this.goldenLabel.Text = "Golden Dash          Mushroom:";
             // 
             // poisonLabel
             // 
@@ -131,7 +131,7 @@
             this.poisonLabel.Location = new System.Drawing.Point(86, 84);
             this.poisonLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.poisonLabel.Name = "poisonLabel";
-            this.poisonLabel.Size = new System.Drawing.Size(164, 21);
+            this.poisonLabel.Size = new System.Drawing.Size(201, 26);
             this.poisonLabel.TabIndex = 6;
             this.poisonLabel.Text = "Posion Mushroom:";
             // 
@@ -156,41 +156,41 @@
             this.goldenInput.Size = new System.Drawing.Size(114, 20);
             this.goldenInput.TabIndex = 9;
             // 
-            // dashpriceLabel
+            // dashPriceLabel
             // 
-            this.dashpriceLabel.BackColor = System.Drawing.Color.Transparent;
-            this.dashpriceLabel.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashpriceLabel.Location = new System.Drawing.Point(436, 18);
-            this.dashpriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.dashpriceLabel.Name = "dashpriceLabel";
-            this.dashpriceLabel.Size = new System.Drawing.Size(54, 42);
-            this.dashpriceLabel.TabIndex = 12;
-            this.dashpriceLabel.Text = "25";
-            this.dashpriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dashPriceLabel.BackColor = System.Drawing.Color.Transparent;
+            this.dashPriceLabel.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashPriceLabel.Location = new System.Drawing.Point(436, 18);
+            this.dashPriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.dashPriceLabel.Name = "dashPriceLabel";
+            this.dashPriceLabel.Size = new System.Drawing.Size(54, 42);
+            this.dashPriceLabel.TabIndex = 12;
+            this.dashPriceLabel.Text = "25";
+            this.dashPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // poisonpriceLabel
+            // poisonPriceLabel
             // 
-            this.poisonpriceLabel.BackColor = System.Drawing.Color.Transparent;
-            this.poisonpriceLabel.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.poisonpriceLabel.Location = new System.Drawing.Point(436, 76);
-            this.poisonpriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.poisonpriceLabel.Name = "poisonpriceLabel";
-            this.poisonpriceLabel.Size = new System.Drawing.Size(54, 42);
-            this.poisonpriceLabel.TabIndex = 13;
-            this.poisonpriceLabel.Text = "30";
-            this.poisonpriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.poisonPriceLabel.BackColor = System.Drawing.Color.Transparent;
+            this.poisonPriceLabel.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.poisonPriceLabel.Location = new System.Drawing.Point(436, 76);
+            this.poisonPriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.poisonPriceLabel.Name = "poisonPriceLabel";
+            this.poisonPriceLabel.Size = new System.Drawing.Size(54, 42);
+            this.poisonPriceLabel.TabIndex = 13;
+            this.poisonPriceLabel.Text = "30";
+            this.poisonPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // goldenLabel
+            // goldenPriceLabel
             // 
-            this.goldenLabel.BackColor = System.Drawing.Color.Transparent;
-            this.goldenLabel.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goldenLabel.Location = new System.Drawing.Point(436, 134);
-            this.goldenLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.goldenLabel.Name = "goldenLabel";
-            this.goldenLabel.Size = new System.Drawing.Size(54, 42);
-            this.goldenLabel.TabIndex = 14;
-            this.goldenLabel.Text = "50";
-            this.goldenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.goldenPriceLabel.BackColor = System.Drawing.Color.Transparent;
+            this.goldenPriceLabel.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goldenPriceLabel.Location = new System.Drawing.Point(436, 134);
+            this.goldenPriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.goldenPriceLabel.Name = "goldenPriceLabel";
+            this.goldenPriceLabel.Size = new System.Drawing.Size(54, 42);
+            this.goldenPriceLabel.TabIndex = 14;
+            this.goldenPriceLabel.Text = "50";
+            this.goldenPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // totalButton
             // 
@@ -203,80 +203,80 @@
             this.totalButton.UseVisualStyleBackColor = true;
             this.totalButton.Click += new System.EventHandler(this.totalButton_Click);
             // 
-            // label1
+            // subtotalLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 266);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 21);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Subtotal:";
+            this.subtotalLabel.AutoSize = true;
+            this.subtotalLabel.BackColor = System.Drawing.Color.Transparent;
+            this.subtotalLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subtotalLabel.Location = new System.Drawing.Point(21, 266);
+            this.subtotalLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.subtotalLabel.Name = "subtotalLabel";
+            this.subtotalLabel.Size = new System.Drawing.Size(110, 26);
+            this.subtotalLabel.TabIndex = 17;
+            this.subtotalLabel.Text = "Subtotal:";
             // 
-            // label3
+            // taxLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 303);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 21);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "Tax:";
+            this.taxLabel.AutoSize = true;
+            this.taxLabel.BackColor = System.Drawing.Color.Transparent;
+            this.taxLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.taxLabel.Location = new System.Drawing.Point(21, 303);
+            this.taxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.taxLabel.Name = "taxLabel";
+            this.taxLabel.Size = new System.Drawing.Size(56, 26);
+            this.taxLabel.TabIndex = 18;
+            this.taxLabel.Text = "Tax:";
             // 
-            // label4
+            // totalLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(21, 338);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 21);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "Total:";
+            this.totalLabel.AutoSize = true;
+            this.totalLabel.BackColor = System.Drawing.Color.Transparent;
+            this.totalLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalLabel.Location = new System.Drawing.Point(21, 338);
+            this.totalLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.totalLabel.Name = "totalLabel";
+            this.totalLabel.Size = new System.Drawing.Size(75, 26);
+            this.totalLabel.TabIndex = 19;
+            this.totalLabel.Text = "Total:";
             // 
-            // starpaymentInput
+            // starPaymentInput
             // 
-            this.starpaymentInput.Location = new System.Drawing.Point(222, 471);
-            this.starpaymentInput.MaxLength = 3;
-            this.starpaymentInput.Name = "starpaymentInput";
-            this.starpaymentInput.Size = new System.Drawing.Size(101, 20);
-            this.starpaymentInput.TabIndex = 20;
+            this.starPaymentInput.Location = new System.Drawing.Point(222, 471);
+            this.starPaymentInput.MaxLength = 3;
+            this.starPaymentInput.Name = "starPaymentInput";
+            this.starPaymentInput.Size = new System.Drawing.Size(101, 20);
+            this.starPaymentInput.TabIndex = 20;
             // 
-            // coinpaymentInput
+            // coinPaymentInput
             // 
-            this.coinpaymentInput.Location = new System.Drawing.Point(222, 519);
-            this.coinpaymentInput.Name = "coinpaymentInput";
-            this.coinpaymentInput.Size = new System.Drawing.Size(101, 20);
-            this.coinpaymentInput.TabIndex = 22;
+            this.coinPaymentInput.Location = new System.Drawing.Point(222, 519);
+            this.coinPaymentInput.Name = "coinPaymentInput";
+            this.coinPaymentInput.Size = new System.Drawing.Size(101, 20);
+            this.coinPaymentInput.TabIndex = 22;
             // 
-            // label5
+            // equalsLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(224, 392);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(20, 21);
-            this.label5.TabIndex = 23;
-            this.label5.Text = "=";
+            this.equalsLabel.AutoSize = true;
+            this.equalsLabel.BackColor = System.Drawing.Color.Transparent;
+            this.equalsLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.equalsLabel.Location = new System.Drawing.Point(224, 392);
+            this.equalsLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.equalsLabel.Name = "equalsLabel";
+            this.equalsLabel.Size = new System.Drawing.Size(24, 26);
+            this.equalsLabel.TabIndex = 23;
+            this.equalsLabel.Text = "=";
             // 
-            // label6
+            // conversionLabel
             // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(289, 379);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 42);
-            this.label6.TabIndex = 24;
-            this.label6.Text = "100";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.conversionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.conversionLabel.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conversionLabel.Location = new System.Drawing.Point(289, 379);
+            this.conversionLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.conversionLabel.Name = "conversionLabel";
+            this.conversionLabel.Size = new System.Drawing.Size(68, 42);
+            this.conversionLabel.TabIndex = 24;
+            this.conversionLabel.Text = "100";
+            this.conversionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -290,14 +290,14 @@
             this.label7.Text = "1";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label8
+            // dividerLabel
             // 
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(12, 435);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(471, 10);
-            this.label8.TabIndex = 26;
+            this.dividerLabel.BackColor = System.Drawing.Color.White;
+            this.dividerLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dividerLabel.Location = new System.Drawing.Point(12, 435);
+            this.dividerLabel.Name = "dividerLabel";
+            this.dividerLabel.Size = new System.Drawing.Size(471, 10);
+            this.dividerLabel.TabIndex = 26;
             // 
             // receiptLabel
             // 
@@ -309,27 +309,27 @@
             this.receiptLabel.Size = new System.Drawing.Size(370, 522);
             this.receiptLabel.TabIndex = 27;
             // 
-            // label10
+            // paymentLabel
             // 
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(8, 485);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(151, 43);
-            this.label10.TabIndex = 29;
-            this.label10.Text = "How Would You Like to Pay?";
+            this.paymentLabel.BackColor = System.Drawing.Color.Transparent;
+            this.paymentLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.paymentLabel.Location = new System.Drawing.Point(8, 485);
+            this.paymentLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.paymentLabel.Name = "paymentLabel";
+            this.paymentLabel.Size = new System.Drawing.Size(151, 43);
+            this.paymentLabel.TabIndex = 29;
+            this.paymentLabel.Text = "How Would You Like to Pay?";
             // 
-            // label11
+            // changeOwedLabel
             // 
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(21, 574);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(85, 29);
-            this.label11.TabIndex = 34;
-            this.label11.Text = "Change:";
+            this.changeOwedLabel.BackColor = System.Drawing.Color.Transparent;
+            this.changeOwedLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeOwedLabel.Location = new System.Drawing.Point(21, 574);
+            this.changeOwedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.changeOwedLabel.Name = "changeOwedLabel";
+            this.changeOwedLabel.Size = new System.Drawing.Size(85, 29);
+            this.changeOwedLabel.TabIndex = 34;
+            this.changeOwedLabel.Text = "Change:";
             // 
             // changeButton
             // 
@@ -355,71 +355,71 @@
             this.printButton.UseVisualStyleBackColor = true;
             this.printButton.Click += new System.EventHandler(this.printButton_Click);
             // 
-            // coinstotalOutput
+            // coinsTotalOutput
             // 
-            this.coinstotalOutput.BackColor = System.Drawing.Color.Transparent;
-            this.coinstotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coinstotalOutput.Location = new System.Drawing.Point(422, 327);
-            this.coinstotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.coinstotalOutput.Name = "coinstotalOutput";
-            this.coinstotalOutput.Size = new System.Drawing.Size(119, 32);
-            this.coinstotalOutput.TabIndex = 39;
-            this.coinstotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.coinsTotalOutput.BackColor = System.Drawing.Color.Transparent;
+            this.coinsTotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coinsTotalOutput.Location = new System.Drawing.Point(422, 327);
+            this.coinsTotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.coinsTotalOutput.Name = "coinsTotalOutput";
+            this.coinsTotalOutput.Size = new System.Drawing.Size(119, 32);
+            this.coinsTotalOutput.TabIndex = 39;
+            this.coinsTotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // coinstaxOutput
+            // coinsTaxOutput
             // 
-            this.coinstaxOutput.BackColor = System.Drawing.Color.Transparent;
-            this.coinstaxOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coinstaxOutput.Location = new System.Drawing.Point(422, 292);
-            this.coinstaxOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.coinstaxOutput.Name = "coinstaxOutput";
-            this.coinstaxOutput.Size = new System.Drawing.Size(119, 32);
-            this.coinstaxOutput.TabIndex = 41;
-            this.coinstaxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.coinsTaxOutput.BackColor = System.Drawing.Color.Transparent;
+            this.coinsTaxOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coinsTaxOutput.Location = new System.Drawing.Point(422, 292);
+            this.coinsTaxOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.coinsTaxOutput.Name = "coinsTaxOutput";
+            this.coinsTaxOutput.Size = new System.Drawing.Size(119, 32);
+            this.coinsTaxOutput.TabIndex = 41;
+            this.coinsTaxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // coinssubtotalOutput
+            // coinsSubtotalOutput
             // 
-            this.coinssubtotalOutput.BackColor = System.Drawing.Color.Transparent;
-            this.coinssubtotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coinssubtotalOutput.Location = new System.Drawing.Point(422, 256);
-            this.coinssubtotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.coinssubtotalOutput.Name = "coinssubtotalOutput";
-            this.coinssubtotalOutput.Size = new System.Drawing.Size(119, 32);
-            this.coinssubtotalOutput.TabIndex = 43;
-            this.coinssubtotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.coinsSubtotalOutput.BackColor = System.Drawing.Color.Transparent;
+            this.coinsSubtotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coinsSubtotalOutput.Location = new System.Drawing.Point(422, 256);
+            this.coinsSubtotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.coinsSubtotalOutput.Name = "coinsSubtotalOutput";
+            this.coinsSubtotalOutput.Size = new System.Drawing.Size(119, 32);
+            this.coinsSubtotalOutput.TabIndex = 43;
+            this.coinsSubtotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // starstotalOutput
+            // starsTotalOutput
             // 
-            this.starstotalOutput.BackColor = System.Drawing.Color.Transparent;
-            this.starstotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.starstotalOutput.Location = new System.Drawing.Point(310, 327);
-            this.starstotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.starstotalOutput.Name = "starstotalOutput";
-            this.starstotalOutput.Size = new System.Drawing.Size(76, 32);
-            this.starstotalOutput.TabIndex = 47;
-            this.starstotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.starsTotalOutput.BackColor = System.Drawing.Color.Transparent;
+            this.starsTotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.starsTotalOutput.Location = new System.Drawing.Point(310, 327);
+            this.starsTotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.starsTotalOutput.Name = "starsTotalOutput";
+            this.starsTotalOutput.Size = new System.Drawing.Size(76, 32);
+            this.starsTotalOutput.TabIndex = 47;
+            this.starsTotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // starstaxOutput
+            // starsTaxOutput
             // 
-            this.starstaxOutput.BackColor = System.Drawing.Color.Transparent;
-            this.starstaxOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.starstaxOutput.Location = new System.Drawing.Point(310, 292);
-            this.starstaxOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.starstaxOutput.Name = "starstaxOutput";
-            this.starstaxOutput.Size = new System.Drawing.Size(76, 32);
-            this.starstaxOutput.TabIndex = 48;
-            this.starstaxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.starsTaxOutput.BackColor = System.Drawing.Color.Transparent;
+            this.starsTaxOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.starsTaxOutput.Location = new System.Drawing.Point(310, 292);
+            this.starsTaxOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.starsTaxOutput.Name = "starsTaxOutput";
+            this.starsTaxOutput.Size = new System.Drawing.Size(76, 32);
+            this.starsTaxOutput.TabIndex = 48;
+            this.starsTaxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // starssubtotalOutput
+            // starsSubtotalOutput
             // 
-            this.starssubtotalOutput.BackColor = System.Drawing.Color.Transparent;
-            this.starssubtotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.starssubtotalOutput.Location = new System.Drawing.Point(310, 255);
-            this.starssubtotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.starssubtotalOutput.Name = "starssubtotalOutput";
-            this.starssubtotalOutput.Size = new System.Drawing.Size(76, 32);
-            this.starssubtotalOutput.TabIndex = 49;
-            this.starssubtotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.starsSubtotalOutput.BackColor = System.Drawing.Color.Transparent;
+            this.starsSubtotalOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.starsSubtotalOutput.Location = new System.Drawing.Point(310, 255);
+            this.starsSubtotalOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.starsSubtotalOutput.Name = "starsSubtotalOutput";
+            this.starsSubtotalOutput.Size = new System.Drawing.Size(76, 32);
+            this.starsSubtotalOutput.TabIndex = 49;
+            this.starsSubtotalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // resetButton
             // 
@@ -432,245 +432,245 @@
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
-            // starschangeOutput
+            // starsChangeOutput
             // 
-            this.starschangeOutput.BackColor = System.Drawing.Color.Transparent;
-            this.starschangeOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.starschangeOutput.Location = new System.Drawing.Point(310, 571);
-            this.starschangeOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.starschangeOutput.Name = "starschangeOutput";
-            this.starschangeOutput.Size = new System.Drawing.Size(76, 32);
-            this.starschangeOutput.TabIndex = 54;
-            this.starschangeOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.starsChangeOutput.BackColor = System.Drawing.Color.Transparent;
+            this.starsChangeOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.starsChangeOutput.Location = new System.Drawing.Point(310, 571);
+            this.starsChangeOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.starsChangeOutput.Name = "starsChangeOutput";
+            this.starsChangeOutput.Size = new System.Drawing.Size(76, 32);
+            this.starsChangeOutput.TabIndex = 54;
+            this.starsChangeOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // coinschangeOutput
+            // coinsChangeOutput
             // 
-            this.coinschangeOutput.BackColor = System.Drawing.Color.Transparent;
-            this.coinschangeOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coinschangeOutput.Location = new System.Drawing.Point(422, 571);
-            this.coinschangeOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.coinschangeOutput.Name = "coinschangeOutput";
-            this.coinschangeOutput.Size = new System.Drawing.Size(119, 32);
-            this.coinschangeOutput.TabIndex = 52;
-            this.coinschangeOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.coinsChangeOutput.BackColor = System.Drawing.Color.Transparent;
+            this.coinsChangeOutput.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coinsChangeOutput.Location = new System.Drawing.Point(422, 571);
+            this.coinsChangeOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.coinsChangeOutput.Name = "coinsChangeOutput";
+            this.coinsChangeOutput.Size = new System.Drawing.Size(119, 32);
+            this.coinsChangeOutput.TabIndex = 52;
+            this.coinsChangeOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // changestarPicture
+            // changeStarPicture
             // 
-            this.changestarPicture.BackColor = System.Drawing.Color.Transparent;
-            this.changestarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
-            this.changestarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.changestarPicture.Location = new System.Drawing.Point(267, 571);
-            this.changestarPicture.Name = "changestarPicture";
-            this.changestarPicture.Size = new System.Drawing.Size(38, 32);
-            this.changestarPicture.TabIndex = 53;
-            this.changestarPicture.TabStop = false;
-            this.changestarPicture.Visible = false;
+            this.changeStarPicture.BackColor = System.Drawing.Color.Transparent;
+            this.changeStarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
+            this.changeStarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.changeStarPicture.Location = new System.Drawing.Point(267, 571);
+            this.changeStarPicture.Name = "changeStarPicture";
+            this.changeStarPicture.Size = new System.Drawing.Size(38, 32);
+            this.changeStarPicture.TabIndex = 53;
+            this.changeStarPicture.TabStop = false;
+            this.changeStarPicture.Visible = false;
             // 
-            // changecoinPicture
+            // changeCoinPicture
             // 
-            this.changecoinPicture.BackColor = System.Drawing.Color.Transparent;
-            this.changecoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.changecoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.changecoinPicture.Location = new System.Drawing.Point(390, 571);
-            this.changecoinPicture.Margin = new System.Windows.Forms.Padding(2);
-            this.changecoinPicture.Name = "changecoinPicture";
-            this.changecoinPicture.Size = new System.Drawing.Size(28, 32);
-            this.changecoinPicture.TabIndex = 51;
-            this.changecoinPicture.TabStop = false;
-            this.changecoinPicture.Visible = false;
+            this.changeCoinPicture.BackColor = System.Drawing.Color.Transparent;
+            this.changeCoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.changeCoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.changeCoinPicture.Location = new System.Drawing.Point(390, 571);
+            this.changeCoinPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.changeCoinPicture.Name = "changeCoinPicture";
+            this.changeCoinPicture.Size = new System.Drawing.Size(28, 32);
+            this.changeCoinPicture.TabIndex = 51;
+            this.changeCoinPicture.TabStop = false;
+            this.changeCoinPicture.Visible = false;
             // 
-            // subtotalstarPicture
+            // subtotalStarPicture
             // 
-            this.subtotalstarPicture.BackColor = System.Drawing.Color.Transparent;
-            this.subtotalstarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
-            this.subtotalstarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subtotalstarPicture.Location = new System.Drawing.Point(267, 256);
-            this.subtotalstarPicture.Name = "subtotalstarPicture";
-            this.subtotalstarPicture.Size = new System.Drawing.Size(38, 32);
-            this.subtotalstarPicture.TabIndex = 46;
-            this.subtotalstarPicture.TabStop = false;
-            this.subtotalstarPicture.Visible = false;
+            this.subtotalStarPicture.BackColor = System.Drawing.Color.Transparent;
+            this.subtotalStarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
+            this.subtotalStarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subtotalStarPicture.Location = new System.Drawing.Point(267, 256);
+            this.subtotalStarPicture.Name = "subtotalStarPicture";
+            this.subtotalStarPicture.Size = new System.Drawing.Size(38, 32);
+            this.subtotalStarPicture.TabIndex = 46;
+            this.subtotalStarPicture.TabStop = false;
+            this.subtotalStarPicture.Visible = false;
             // 
-            // taxstarPicture
+            // taxStarPicture
             // 
-            this.taxstarPicture.BackColor = System.Drawing.Color.Transparent;
-            this.taxstarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
-            this.taxstarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.taxstarPicture.Location = new System.Drawing.Point(267, 292);
-            this.taxstarPicture.Name = "taxstarPicture";
-            this.taxstarPicture.Size = new System.Drawing.Size(38, 32);
-            this.taxstarPicture.TabIndex = 45;
-            this.taxstarPicture.TabStop = false;
-            this.taxstarPicture.Visible = false;
+            this.taxStarPicture.BackColor = System.Drawing.Color.Transparent;
+            this.taxStarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
+            this.taxStarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.taxStarPicture.Location = new System.Drawing.Point(267, 292);
+            this.taxStarPicture.Name = "taxStarPicture";
+            this.taxStarPicture.Size = new System.Drawing.Size(38, 32);
+            this.taxStarPicture.TabIndex = 45;
+            this.taxStarPicture.TabStop = false;
+            this.taxStarPicture.Visible = false;
             // 
-            // totalstarPicture
+            // totalStarPicture
             // 
-            this.totalstarPicture.BackColor = System.Drawing.Color.Transparent;
-            this.totalstarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
-            this.totalstarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.totalstarPicture.Location = new System.Drawing.Point(267, 327);
-            this.totalstarPicture.Name = "totalstarPicture";
-            this.totalstarPicture.Size = new System.Drawing.Size(38, 32);
-            this.totalstarPicture.TabIndex = 44;
-            this.totalstarPicture.TabStop = false;
-            this.totalstarPicture.Visible = false;
+            this.totalStarPicture.BackColor = System.Drawing.Color.Transparent;
+            this.totalStarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
+            this.totalStarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.totalStarPicture.Location = new System.Drawing.Point(267, 327);
+            this.totalStarPicture.Name = "totalStarPicture";
+            this.totalStarPicture.Size = new System.Drawing.Size(38, 32);
+            this.totalStarPicture.TabIndex = 44;
+            this.totalStarPicture.TabStop = false;
+            this.totalStarPicture.Visible = false;
             // 
-            // subtotalcoinPicture
+            // subtotalCoinPicture
             // 
-            this.subtotalcoinPicture.BackColor = System.Drawing.Color.Transparent;
-            this.subtotalcoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.subtotalcoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subtotalcoinPicture.Location = new System.Drawing.Point(390, 256);
-            this.subtotalcoinPicture.Margin = new System.Windows.Forms.Padding(2);
-            this.subtotalcoinPicture.Name = "subtotalcoinPicture";
-            this.subtotalcoinPicture.Size = new System.Drawing.Size(28, 32);
-            this.subtotalcoinPicture.TabIndex = 42;
-            this.subtotalcoinPicture.TabStop = false;
-            this.subtotalcoinPicture.Visible = false;
+            this.subtotalCoinPicture.BackColor = System.Drawing.Color.Transparent;
+            this.subtotalCoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.subtotalCoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subtotalCoinPicture.Location = new System.Drawing.Point(390, 256);
+            this.subtotalCoinPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.subtotalCoinPicture.Name = "subtotalCoinPicture";
+            this.subtotalCoinPicture.Size = new System.Drawing.Size(28, 32);
+            this.subtotalCoinPicture.TabIndex = 42;
+            this.subtotalCoinPicture.TabStop = false;
+            this.subtotalCoinPicture.Visible = false;
             // 
-            // taxcoinPicture
+            // taxCoinPicture
             // 
-            this.taxcoinPicture.BackColor = System.Drawing.Color.Transparent;
-            this.taxcoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.taxcoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.taxcoinPicture.Location = new System.Drawing.Point(390, 292);
-            this.taxcoinPicture.Margin = new System.Windows.Forms.Padding(2);
-            this.taxcoinPicture.Name = "taxcoinPicture";
-            this.taxcoinPicture.Size = new System.Drawing.Size(28, 32);
-            this.taxcoinPicture.TabIndex = 40;
-            this.taxcoinPicture.TabStop = false;
-            this.taxcoinPicture.Visible = false;
+            this.taxCoinPicture.BackColor = System.Drawing.Color.Transparent;
+            this.taxCoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.taxCoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.taxCoinPicture.Location = new System.Drawing.Point(390, 292);
+            this.taxCoinPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.taxCoinPicture.Name = "taxCoinPicture";
+            this.taxCoinPicture.Size = new System.Drawing.Size(28, 32);
+            this.taxCoinPicture.TabIndex = 40;
+            this.taxCoinPicture.TabStop = false;
+            this.taxCoinPicture.Visible = false;
             // 
-            // totalcoinPicture
+            // totalCoinPicture
             // 
-            this.totalcoinPicture.BackColor = System.Drawing.Color.Transparent;
-            this.totalcoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.totalcoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.totalcoinPicture.Location = new System.Drawing.Point(390, 327);
-            this.totalcoinPicture.Margin = new System.Windows.Forms.Padding(2);
-            this.totalcoinPicture.Name = "totalcoinPicture";
-            this.totalcoinPicture.Size = new System.Drawing.Size(28, 32);
-            this.totalcoinPicture.TabIndex = 38;
-            this.totalcoinPicture.TabStop = false;
-            this.totalcoinPicture.Visible = false;
+            this.totalCoinPicture.BackColor = System.Drawing.Color.Transparent;
+            this.totalCoinPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.totalCoinPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.totalCoinPicture.Location = new System.Drawing.Point(390, 327);
+            this.totalCoinPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.totalCoinPicture.Name = "totalCoinPicture";
+            this.totalCoinPicture.Size = new System.Drawing.Size(28, 32);
+            this.totalCoinPicture.TabIndex = 38;
+            this.totalCoinPicture.TabStop = false;
+            this.totalCoinPicture.Visible = false;
             // 
-            // pictureBox10
+            // coininputImage
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(169, 512);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(37, 43);
-            this.pictureBox10.TabIndex = 30;
-            this.pictureBox10.TabStop = false;
+            this.coininputImage.BackColor = System.Drawing.Color.Transparent;
+            this.coininputImage.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.coininputImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coininputImage.Location = new System.Drawing.Point(169, 512);
+            this.coininputImage.Margin = new System.Windows.Forms.Padding(2);
+            this.coininputImage.Name = "coininputImage";
+            this.coininputImage.Size = new System.Drawing.Size(37, 43);
+            this.coininputImage.TabIndex = 30;
+            this.coininputImage.TabStop = false;
             // 
-            // pictureBox9
+            // starinputImage
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(164, 459);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(42, 43);
-            this.pictureBox9.TabIndex = 28;
-            this.pictureBox9.TabStop = false;
+            this.starinputImage.BackColor = System.Drawing.Color.Transparent;
+            this.starinputImage.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
+            this.starinputImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.starinputImage.Location = new System.Drawing.Point(164, 459);
+            this.starinputImage.Name = "starinputImage";
+            this.starinputImage.Size = new System.Drawing.Size(42, 43);
+            this.starinputImage.TabIndex = 28;
+            this.starinputImage.TabStop = false;
             // 
-            // pictureBox8
+            // conversionStarPicture
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(157, 378);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(42, 43);
-            this.pictureBox8.TabIndex = 21;
-            this.pictureBox8.TabStop = false;
+            this.conversionStarPicture.BackColor = System.Drawing.Color.Transparent;
+            this.conversionStarPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Star_Mario;
+            this.conversionStarPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.conversionStarPicture.Location = new System.Drawing.Point(157, 378);
+            this.conversionStarPicture.Name = "conversionStarPicture";
+            this.conversionStarPicture.Size = new System.Drawing.Size(42, 43);
+            this.conversionStarPicture.TabIndex = 21;
+            this.conversionStarPicture.TabStop = false;
             // 
-            // pictureBox7
+            // conversionCoinsPicture
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(248, 378);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(37, 43);
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
+            this.conversionCoinsPicture.BackColor = System.Drawing.Color.Transparent;
+            this.conversionCoinsPicture.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.conversionCoinsPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.conversionCoinsPicture.Location = new System.Drawing.Point(248, 378);
+            this.conversionCoinsPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.conversionCoinsPicture.Name = "conversionCoinsPicture";
+            this.conversionCoinsPicture.Size = new System.Drawing.Size(37, 43);
+            this.conversionCoinsPicture.TabIndex = 16;
+            this.conversionCoinsPicture.TabStop = false;
             // 
-            // pictureBox1
+            // dashCoinsImage
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(399, 17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 43);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.dashCoinsImage.BackColor = System.Drawing.Color.Transparent;
+            this.dashCoinsImage.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.dashCoinsImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dashCoinsImage.Location = new System.Drawing.Point(399, 17);
+            this.dashCoinsImage.Margin = new System.Windows.Forms.Padding(2);
+            this.dashCoinsImage.Name = "dashCoinsImage";
+            this.dashCoinsImage.Size = new System.Drawing.Size(33, 43);
+            this.dashCoinsImage.TabIndex = 0;
+            this.dashCoinsImage.TabStop = false;
             // 
-            // pictureBox6
+            // goldenCoinsImage
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(399, 133);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(33, 43);
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
+            this.goldenCoinsImage.BackColor = System.Drawing.Color.Transparent;
+            this.goldenCoinsImage.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.goldenCoinsImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.goldenCoinsImage.Location = new System.Drawing.Point(399, 133);
+            this.goldenCoinsImage.Margin = new System.Windows.Forms.Padding(2);
+            this.goldenCoinsImage.Name = "goldenCoinsImage";
+            this.goldenCoinsImage.Size = new System.Drawing.Size(33, 43);
+            this.goldenCoinsImage.TabIndex = 11;
+            this.goldenCoinsImage.TabStop = false;
             // 
-            // pictureBox5
+            // poisonCoinsImage
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(399, 76);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(33, 43);
-            this.pictureBox5.TabIndex = 10;
-            this.pictureBox5.TabStop = false;
+            this.poisonCoinsImage.BackColor = System.Drawing.Color.Transparent;
+            this.poisonCoinsImage.BackgroundImage = global::Cash_Register.Properties.Resources.Mario_Coin;
+            this.poisonCoinsImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.poisonCoinsImage.Location = new System.Drawing.Point(399, 76);
+            this.poisonCoinsImage.Margin = new System.Windows.Forms.Padding(2);
+            this.poisonCoinsImage.Name = "poisonCoinsImage";
+            this.poisonCoinsImage.Size = new System.Drawing.Size(33, 43);
+            this.poisonCoinsImage.TabIndex = 10;
+            this.poisonCoinsImage.TabStop = false;
             // 
-            // pictureBox4
+            // goldenImage
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = global::Cash_Register.Properties.Resources.Golden_Dash;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(16, 124);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(42, 52);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.goldenImage.BackColor = System.Drawing.Color.Transparent;
+            this.goldenImage.BackgroundImage = global::Cash_Register.Properties.Resources.Golden_Dash;
+            this.goldenImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.goldenImage.Location = new System.Drawing.Point(16, 124);
+            this.goldenImage.Margin = new System.Windows.Forms.Padding(2);
+            this.goldenImage.Name = "goldenImage";
+            this.goldenImage.Size = new System.Drawing.Size(42, 52);
+            this.goldenImage.TabIndex = 3;
+            this.goldenImage.TabStop = false;
             // 
-            // pictureBox3
+            // poisonImage
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::Cash_Register.Properties.Resources.Poison_Mushroom;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(16, 67);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(42, 52);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.poisonImage.BackColor = System.Drawing.Color.Transparent;
+            this.poisonImage.BackgroundImage = global::Cash_Register.Properties.Resources.Poison_Mushroom;
+            this.poisonImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.poisonImage.Location = new System.Drawing.Point(16, 67);
+            this.poisonImage.Margin = new System.Windows.Forms.Padding(2);
+            this.poisonImage.Name = "poisonImage";
+            this.poisonImage.Size = new System.Drawing.Size(42, 52);
+            this.poisonImage.TabIndex = 2;
+            this.poisonImage.TabStop = false;
             // 
-            // pictureBox2
+            // dashImage
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::Cash_Register.Properties.Resources.Dash_Mushroom;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 10);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(42, 52);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.dashImage.BackColor = System.Drawing.Color.Transparent;
+            this.dashImage.BackgroundImage = global::Cash_Register.Properties.Resources.Dash_Mushroom;
+            this.dashImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dashImage.Location = new System.Drawing.Point(16, 10);
+            this.dashImage.Margin = new System.Windows.Forms.Padding(2);
+            this.dashImage.Name = "dashImage";
+            this.dashImage.Size = new System.Drawing.Size(42, 52);
+            this.dashImage.TabIndex = 1;
+            this.dashImage.TabStop = false;
             // 
             // Form1
             // 
@@ -679,80 +679,80 @@
             this.BackgroundImage = global::Cash_Register.Properties.Resources.Background_Mario_Sky;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(946, 612);
-            this.Controls.Add(this.starschangeOutput);
-            this.Controls.Add(this.changestarPicture);
-            this.Controls.Add(this.coinschangeOutput);
-            this.Controls.Add(this.changecoinPicture);
+            this.Controls.Add(this.starsChangeOutput);
+            this.Controls.Add(this.changeStarPicture);
+            this.Controls.Add(this.coinsChangeOutput);
+            this.Controls.Add(this.changeCoinPicture);
             this.Controls.Add(this.resetButton);
-            this.Controls.Add(this.starssubtotalOutput);
-            this.Controls.Add(this.starstaxOutput);
-            this.Controls.Add(this.starstotalOutput);
-            this.Controls.Add(this.subtotalstarPicture);
-            this.Controls.Add(this.taxstarPicture);
-            this.Controls.Add(this.totalstarPicture);
-            this.Controls.Add(this.coinssubtotalOutput);
-            this.Controls.Add(this.subtotalcoinPicture);
-            this.Controls.Add(this.coinstaxOutput);
-            this.Controls.Add(this.taxcoinPicture);
-            this.Controls.Add(this.coinstotalOutput);
-            this.Controls.Add(this.totalcoinPicture);
+            this.Controls.Add(this.starsSubtotalOutput);
+            this.Controls.Add(this.starsTaxOutput);
+            this.Controls.Add(this.starsTotalOutput);
+            this.Controls.Add(this.subtotalStarPicture);
+            this.Controls.Add(this.taxStarPicture);
+            this.Controls.Add(this.totalStarPicture);
+            this.Controls.Add(this.coinsSubtotalOutput);
+            this.Controls.Add(this.subtotalCoinPicture);
+            this.Controls.Add(this.coinsTaxOutput);
+            this.Controls.Add(this.taxCoinPicture);
+            this.Controls.Add(this.coinsTotalOutput);
+            this.Controls.Add(this.totalCoinPicture);
             this.Controls.Add(this.printButton);
             this.Controls.Add(this.changeButton);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.changeOwedLabel);
+            this.Controls.Add(this.coininputImage);
+            this.Controls.Add(this.paymentLabel);
+            this.Controls.Add(this.starinputImage);
             this.Controls.Add(this.receiptLabel);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.dividerLabel);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.coinpaymentInput);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.starpaymentInput);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.conversionLabel);
+            this.Controls.Add(this.equalsLabel);
+            this.Controls.Add(this.coinPaymentInput);
+            this.Controls.Add(this.conversionStarPicture);
+            this.Controls.Add(this.starPaymentInput);
+            this.Controls.Add(this.totalLabel);
+            this.Controls.Add(this.taxLabel);
+            this.Controls.Add(this.subtotalLabel);
+            this.Controls.Add(this.conversionCoinsPicture);
             this.Controls.Add(this.totalButton);
-            this.Controls.Add(this.goldenLabel);
-            this.Controls.Add(this.poisonpriceLabel);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.dashpriceLabel);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.goldenPriceLabel);
+            this.Controls.Add(this.poisonPriceLabel);
+            this.Controls.Add(this.dashCoinsImage);
+            this.Controls.Add(this.dashPriceLabel);
+            this.Controls.Add(this.goldenCoinsImage);
+            this.Controls.Add(this.poisonCoinsImage);
             this.Controls.Add(this.goldenInput);
             this.Controls.Add(this.poisonInput);
             this.Controls.Add(this.dashInput);
             this.Controls.Add(this.poisonLabel);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.goldenLabel);
             this.Controls.Add(this.dashLabel);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.goldenImage);
+            this.Controls.Add(this.poisonImage);
+            this.Controls.Add(this.dashImage);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Mario Party Cash Register";
-            ((System.ComponentModel.ISupportInitialize)(this.changestarPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.changecoinPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.subtotalstarPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.taxstarPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.totalstarPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.subtotalcoinPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.taxcoinPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.totalcoinPicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.changeStarPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.changeCoinPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subtotalStarPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.taxStarPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totalStarPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subtotalCoinPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.taxCoinPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totalCoinPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coininputImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.starinputImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conversionStarPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conversionCoinsPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dashCoinsImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldenCoinsImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poisonCoinsImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldenImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poisonImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dashImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -760,57 +760,57 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox dashCoinsImage;
+        private System.Windows.Forms.PictureBox dashImage;
+        private System.Windows.Forms.PictureBox poisonImage;
+        private System.Windows.Forms.PictureBox goldenImage;
         private System.Windows.Forms.Label dashLabel;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label goldenLabel;
         private System.Windows.Forms.Label poisonLabel;
         private System.Windows.Forms.TextBox dashInput;
         private System.Windows.Forms.TextBox poisonInput;
         private System.Windows.Forms.TextBox goldenInput;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label dashpriceLabel;
-        private System.Windows.Forms.Label poisonpriceLabel;
-        private System.Windows.Forms.Label goldenLabel;
+        private System.Windows.Forms.PictureBox poisonCoinsImage;
+        private System.Windows.Forms.PictureBox goldenCoinsImage;
+        private System.Windows.Forms.Label dashPriceLabel;
+        private System.Windows.Forms.Label poisonPriceLabel;
+        private System.Windows.Forms.Label goldenPriceLabel;
         private System.Windows.Forms.Button totalButton;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox starpaymentInput;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.TextBox coinpaymentInput;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label subtotalLabel;
+        private System.Windows.Forms.Label taxLabel;
+        private System.Windows.Forms.Label totalLabel;
+        private System.Windows.Forms.TextBox starPaymentInput;
+        private System.Windows.Forms.PictureBox conversionStarPicture;
+        private System.Windows.Forms.PictureBox conversionCoinsPicture;
+        private System.Windows.Forms.TextBox coinPaymentInput;
+        private System.Windows.Forms.Label equalsLabel;
+        private System.Windows.Forms.Label conversionLabel;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label dividerLabel;
         private System.Windows.Forms.Label receiptLabel;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox starinputImage;
+        private System.Windows.Forms.Label paymentLabel;
+        private System.Windows.Forms.PictureBox coininputImage;
+        private System.Windows.Forms.Label changeOwedLabel;
         private System.Windows.Forms.Button changeButton;
         private System.Windows.Forms.Button printButton;
-        private System.Windows.Forms.PictureBox totalcoinPicture;
-        private System.Windows.Forms.Label coinstotalOutput;
-        private System.Windows.Forms.Label coinstaxOutput;
-        private System.Windows.Forms.PictureBox taxcoinPicture;
-        private System.Windows.Forms.Label coinssubtotalOutput;
-        private System.Windows.Forms.PictureBox subtotalcoinPicture;
-        private System.Windows.Forms.PictureBox totalstarPicture;
-        private System.Windows.Forms.PictureBox taxstarPicture;
-        private System.Windows.Forms.PictureBox subtotalstarPicture;
-        private System.Windows.Forms.Label starstotalOutput;
-        private System.Windows.Forms.Label starstaxOutput;
-        private System.Windows.Forms.Label starssubtotalOutput;
+        private System.Windows.Forms.PictureBox totalCoinPicture;
+        private System.Windows.Forms.Label coinsTotalOutput;
+        private System.Windows.Forms.Label coinsTaxOutput;
+        private System.Windows.Forms.PictureBox taxCoinPicture;
+        private System.Windows.Forms.Label coinsSubtotalOutput;
+        private System.Windows.Forms.PictureBox subtotalCoinPicture;
+        private System.Windows.Forms.PictureBox totalStarPicture;
+        private System.Windows.Forms.PictureBox taxStarPicture;
+        private System.Windows.Forms.PictureBox subtotalStarPicture;
+        private System.Windows.Forms.Label starsTotalOutput;
+        private System.Windows.Forms.Label starsTaxOutput;
+        private System.Windows.Forms.Label starsSubtotalOutput;
         private System.Windows.Forms.Button resetButton;
-        private System.Windows.Forms.Label starschangeOutput;
-        private System.Windows.Forms.PictureBox changestarPicture;
-        private System.Windows.Forms.Label coinschangeOutput;
-        private System.Windows.Forms.PictureBox changecoinPicture;
+        private System.Windows.Forms.Label starsChangeOutput;
+        private System.Windows.Forms.PictureBox changeStarPicture;
+        private System.Windows.Forms.Label coinsChangeOutput;
+        private System.Windows.Forms.PictureBox changeCoinPicture;
     }
 }
 
